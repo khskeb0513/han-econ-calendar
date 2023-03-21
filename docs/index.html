@@ -6,6 +6,11 @@
   <meta http-equiv="refresh" content="0;url='https://ajou-hack.github.io/event-ics/event.ics'" />
 </head>
 <body>
-
+<script>
+  const redirectTag = document.createElement("meta");
+  redirectTag.setAttribute("http-equiv", "refresh");
+  redirectTag.setAttribute("content", "0;url='https://ajou-hack.github.io/event-ics/event.ics'");
+  document.querySelector("head").appendChild(redirectTag);
+</script>
 </body>
 </html>
